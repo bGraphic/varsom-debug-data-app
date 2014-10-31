@@ -1,7 +1,7 @@
 /*
  * Provide a debug API to varsom-parse
  */
- 
+
 var express = require('express');
 var app = express();
 
@@ -14,7 +14,7 @@ app.get('/avalanche/RegionSummary/Detail/1', function(req, res) {
 });
 
 app.get('/flood/CountySummary/1', function (req, res) {
-    var data = JSON.stringify(require('cloud/flood-warning.js'));
+    var data = JSON.stringify(require('cloud/flood-warning-county_1-9.js'));
     res.set({
         'Content-Type': 'application/json; charset=utf-8'
     });
@@ -22,7 +22,7 @@ app.get('/flood/CountySummary/1', function (req, res) {
 });
 
 app.get('/landslide/CountySummary/1', function (req, res) {
-    var data = JSON.stringify(require('cloud/landslide-warning.js'));
+    var data = JSON.stringify(require('cloud/landslide-warning-county_10-20.js'));
     res.set({
         'Content-Type': 'application/json; charset=utf-8'
     });
