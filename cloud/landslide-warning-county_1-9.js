@@ -2,7 +2,7 @@ module.exports =
 {
   "CountyList": [
     {
-      "HighestActivityLevel": "0",
+      "HighestActivityLevel": "4",
       "Id": "01",
       "MunicipalityList": [
         {
@@ -10,7 +10,7 @@ module.exports =
           "Name": "Halden",
           "WarningList": [
             {
-              "ActivityLevel": "0",
+              "ActivityLevel": "4",
               "ActivityLevelName": null,
               "CauseList": [
               ],
@@ -32,6 +32,19 @@ module.exports =
               "MainText": "Ikke vurdert",
               "MasterId": "xxx",
               "MicroBlogPostList": [
+              //Lagt inn av bgraphic
+                {
+                 "DateTime": "2013-11-11T07:53:00",
+                 "Text": "Dette er første innlegg"
+                },
+                {
+                 "DateTime": "2013-11-12T06:53:00",
+                 "Text": "Dette er tredje innlegg"
+                },
+                {
+                 "DateTime": "2014-01-11T08:53:00",
+                 "Text": "Dette er andre innlegg"
+                }
               ],
               "MunicipalityCsvString": "0101",
               "MunicipalityList": [
@@ -5086,6 +5099,16 @@ module.exports =
               "MainText": "Ikke vurdert",
               "MasterId": "xxx",
               "MicroBlogPostList": [
+              //Lagt inn av bgraphic
+                {
+                 "DateTime": "2013-11-11T07:53:00",
+                 "Text": "Dette er første innlegg"
+                },
+              //Lagt inn av bgraphic
+                {
+                 "DateTime": "2013-11-12T10:53:00",
+                 "Text": "Dette er andre innlegg"
+                }
               ],
               "MunicipalityCsvString": "0301",
               "MunicipalityList": [
